@@ -771,6 +771,7 @@ GameObject:
   - component: {fileID: 7847579233146952587}
   - component: {fileID: 7847579233154118763}
   - component: {fileID: 7847579232171298231}
+  - component: {fileID: -5795443944761645207}
   m_Layer: 0
   m_Name: SimpleFarmer_Daughter_White
   m_TagString: Untagged
@@ -829,6 +830,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &-5795443944761645207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7847579233146849195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ef9f91029bd47da96f828dd282e472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
 --- !u!1 &7847579233146849199
 GameObject:
   m_ObjectHideFlags: 0
