@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
         horizontalInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(Vector3.forward * Time.deltaTime * horizontalInput * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * horizontalInput * speed);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
