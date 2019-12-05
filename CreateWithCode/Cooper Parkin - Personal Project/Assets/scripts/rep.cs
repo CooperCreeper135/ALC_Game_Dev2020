@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class repeat : MonoBehaviour
+public class rep : MonoBehaviour
 {
     private Vector3 startPos;
     private float repeatWidth;
@@ -10,7 +10,7 @@ public class repeat : MonoBehaviour
     private void Start()
     {
         startPos = transform.position; // Establish the default starting position 
-        repeatWidth = (float)(GetComponent<BoxCollider>().size.x * 7.540879 / 2); // Set repeat width to half of the background
+        repeatWidth = (GetComponent<BoxCollider>().size.x / 2); // Set repeat width to half of the background
     }
 
     private void Update()
@@ -24,5 +24,3 @@ public class repeat : MonoBehaviour
 
 
 }
-
-
