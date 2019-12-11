@@ -21,12 +21,8 @@ public class MoveLeft : MonoBehaviour
         // If game is not over, move to the left
         if (playerControllerScript.gameOver == false)
         {
-            Debug.Log("isGameOver = " + playerControllerScript.gameOver);
+
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
-        }
-        else
-        {
-            Debug.Log("isGameOverElse = " + playerControllerScript.gameOver);
         }
         
         

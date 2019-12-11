@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 478138220}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,11 +436,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: 2.148
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 84.2
+      value: 80.679
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalPosition.z
@@ -480,15 +480,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7174
+      value: 3.2098205
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7174
+      value: 3.2098205
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.7174
+      value: 3.2098205
       objectReference: {fileID: 0}
     - target: {fileID: 5591832540053748219, guid: af29f0ea7e5403641b3b244ede69c374,
         type: 3}
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 1299876120}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,16 +904,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1979456753}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 0ef3ad45afff94797ba70a289542ba65,
-        type: 3}
-      propertyPath: m_Name
-      value: basket (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 0ef3ad45afff94797ba70a289542ba65,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0ef3ad45afff94797ba70a289542ba65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -984,6 +974,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 275.95752
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0ef3ad45afff94797ba70a289542ba65,
+        type: 3}
+      propertyPath: m_Name
+      value: basket (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0ef3ad45afff94797ba70a289542ba65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef3ad45afff94797ba70a289542ba65, type: 3}
 --- !u!1 &1979456752
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 1980167689}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Background
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
