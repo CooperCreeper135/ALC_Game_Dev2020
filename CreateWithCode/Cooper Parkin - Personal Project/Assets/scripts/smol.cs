@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class smol : MonoBehaviour
 {
+    private bool touched = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,12 +16,21 @@ public class smol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        transform.localScale -= new Vector3(.1f, .1f, .1f);
-        if (transform.localScale.x < .1)
+        if (touched == true)
         {
-            Destroy(gameObject);
+            transform.localScale -= new Vector3(.1f, .1f, .1f);
+            if (transform.localScale.x < .1)
+            {
+                Destroy(gameObject);
+            }
         }
+        
 
+
+    }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            touched = true;
     }
 }
