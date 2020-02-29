@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
@@ -10,16 +10,26 @@ public class PlayerController : MonoBehaviour
 
     private bombs playerControllerScript;
     public GameObject projectilePrefab;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         playerControllerScript = GameObject.Find("Player").GetComponentInChildren<bombs>();
     }
 
+    
+    
     // Update is called once per frame
     void Update()
 
     {
+        if (playerControllerScript.gameOver == true)
+        {
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (playerControllerScript.gameOver == false)
         {
             if (transform.position.x < -xRange)
