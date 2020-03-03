@@ -19,6 +19,7 @@ public class smol : MonoBehaviour
         if (touched == true)
         {
             transform.localScale -= new Vector3(.8f, .8f, .8f);
+            scoring.scoreValue += 10;
             if (transform.localScale.x < .1)
             {
                 Destroy(gameObject);

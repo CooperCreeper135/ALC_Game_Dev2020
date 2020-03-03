@@ -27,11 +27,12 @@ public class PlayerController : MonoBehaviour
     {
         if (playerControllerScript.gameOver == true)
         {
-
+            Cursor.visible = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         if (playerControllerScript.gameOver == false)
         {
+            Cursor.visible = false;
             if (transform.position.x < -xRange)
             {
                 transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
@@ -44,6 +45,10 @@ public class PlayerController : MonoBehaviour
             horizontalInput = Input.GetAxis("Horizontal");
 
             transform.Translate(Vector3.right * Time.deltaTime * horizontalInput * speed);
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Cursor.visible = true;
+            }
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
