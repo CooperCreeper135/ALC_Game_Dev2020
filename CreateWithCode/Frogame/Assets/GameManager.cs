@@ -23,9 +23,13 @@ public class GameManager : MonoBehaviour
     }
     public void Tutorial1()
     {
+
+        Invoke("Bad", .35f);
+    }
+    void Bad()
+    {
         tutorialUI.SetActive(false);
     }
-
     public void EndGame()
     {
         if (gameHasEnded == false)
