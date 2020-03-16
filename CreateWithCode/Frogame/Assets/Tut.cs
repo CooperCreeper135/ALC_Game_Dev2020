@@ -9,17 +9,16 @@ public class Tut : MonoBehaviour
     public PlayerMovement player;
     public LLL nerd;
     public int james;
+    public Level_loader level_Loader;
     void Update()
     {
-        if (nerd.open == true)
+        if (nerd.open == true && player.lvlgo == true)
         {
-            if (player.lvlgo == true)
-            {
-                SceneManager.LoadScene(james);
-                Debug.Log("what");
-            }
+            level_Loader.LoadNextLevel();
         }
 
 
     }
+
 }
+
