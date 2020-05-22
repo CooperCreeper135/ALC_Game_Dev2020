@@ -7,5 +7,5 @@ PhysicsMaterial2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: sticky
-  friction: 16.72
+  friction: 128.18
   bounciness: 0
