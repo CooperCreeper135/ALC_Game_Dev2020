@@ -10105,7 +10105,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -106.68505, y: -17.655409}
+  m_Offset: {x: -37.91887, y: -17.188223}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10116,7 +10116,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 214.3701, y: 0.3345909}
+  m_Size: {x: 76.83774, y: 1.2689629}
   m_EdgeRadius: 0
 --- !u!23 &112660726
 MeshRenderer:
@@ -11300,7 +11300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &483862913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11327,7 +11327,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 22.015236, y: -24.973316}
+  m_Offset: {x: -82.59885, y: -18.927197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11338,7 +11338,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 46.39576, y: 1.568779}
+  m_Size: {x: 128.0271, y: 0.37861633}
   m_EdgeRadius: 0
 --- !u!4 &483862915
 Transform:
@@ -15425,7 +15425,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1263037077632266693, guid: 7ee56260d4b8945c49d2e8ff1d15730f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ee56260d4b8945c49d2e8ff1d15730f, type: 3}
 --- !u!1001 &6829094710696498534
 PrefabInstance:
@@ -15507,7 +15508,7 @@ PrefabInstance:
     - target: {fileID: 6829094712375429911, guid: b1c91a9d926ed45e4865a088acf31595,
         type: 3}
       propertyPath: restartDelay
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1c91a9d926ed45e4865a088acf31595, type: 3}
